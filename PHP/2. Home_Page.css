@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .item {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .header {
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .nav {
+              display: flex;
+              justify-content: center;
+          }
+          .nav a {
+              text-decoration: none; 
+              color: #292929; 
+              font-weight: bold;
+              padding: 10px 20px;
+              font-size: 20px;
+              margin: 4px 10px;
+              cursor: pointer;
+              justify-content: space-around;
+          }
